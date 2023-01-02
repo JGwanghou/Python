@@ -49,5 +49,35 @@ print('num7 : ', num7)
 print('num8 : ', num8)
 
 # 비교연산자
+var1 = 1
+var2 = 2
+
+rs1 = var1 > var2
+rs2 = var1 < var2
+rs3 = var1 >= var2
+rs4 = var1 <= var2
+rs5 = var1 == var2
+rs6 = var1 != var2
+
+print('rs1 : ', rs1)
+print('rs2 : ', rs2)
+print('rs3 : ', rs3)
+print('rs4 : ', rs4)
+print('rs5 : ', rs5)
+print('rs6 : ', rs6)
 
 # 논리연산자
+var3 = 3
+var4 = 4
+
+res1 = var3 > 2 and var4 > 3
+res2 = var3 > 2 and var4 > 4
+res3 = var3 > 2 or var4 > 4
+res4 = var3 > 4 or var4 > 5
+res5 = not var3 > var4
+
+print('res1 : ', res1)
+print('res2 : ', res2)
+print('res3 : ', res3)
+print('res4 : ', res4)
+print('res5 : ', res5)
