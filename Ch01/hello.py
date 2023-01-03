@@ -7,4 +7,5 @@
 print("Hello world!")
 
 print('Hello Python!')
-print('------')
+
+print("안녕하세요 파이썬!")
